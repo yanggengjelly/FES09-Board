@@ -10,7 +10,7 @@ function ReplyItem({ item }) {
       <div className="flex justify-between items-center mb-2">
         <img
           className="w-8 mr-2 rounded-full"
-          src="https://i.namu.wiki/i/hMfGFgmU4rk14_RweTTrgckKeHC_QoYBLsTFceW9YU4e-lX3GN5Vj6uPsoDjVZhrK5GhpdId3mXv2vYjIYpgPhgb2NshnrPs_1CYA_5jlN5hprQD2FdY6OHddta8D2dyKRcVPyO43PuVtcDHUJa4xQ.webp"
+          src={`https://market-lion.koyeb.app/api/files/${item.user.profile}`}
           alt=""
         />
         <a className="text-blue-500" href="">
